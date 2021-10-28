@@ -1,0 +1,9 @@
+<!--- Loader component -->
+<div *ngIf="loader$ | async" class="loader">
+  <mat-spinner></mat-spinner>
+  <h3 class="mt-4">Cargando...</h3>
+</div>
+
+<!-- <app-header></app-header>
+ -->
+<router-outlet></router-outlet>
